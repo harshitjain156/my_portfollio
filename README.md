@@ -30,23 +30,3 @@ Note If you're using Linux Bash for Windows, see this guide or use node from the
 #Download
 You can download the latest installable version of git for Windows, macOS and Linux.
 
-Setup Instructions ⬇
-First fork this repo by clicking Fork icon 🍴 on top right corner & then clone your repo using command
-$. git clone https://github.com/your_github_username/repo_url
-or
-$. git clone git@github.com:your_github_username/repo_url
-Change directory & add upstream repository URL
-$. cd Edfoal.github.io/
-$. git remote add upstream https://github.com/Edfoal/Edfoal.github.io.git
-or
-$.git remote add upstream git@github.com:Edfoal/Edfoal.github.io.git
-Always Pull recent changes from upstream repository before doing any work then checkout different branch other than main
-$. git pull upstream main
-$. git checkout -b branch_name
-Make changes and stage those changes with this command.
-$. git add .
-Write commit message, Follow this convention.
-git commit -m"commit_message_here"
-Push those changes to your Fork Repo, and Create Pull Request.
-$. git push origin your_branch_name
-Sit back & Relax and wait for maintainers for rewiewing your PR.
