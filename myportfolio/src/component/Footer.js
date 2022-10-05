@@ -12,7 +12,7 @@ function Footer() {
           <Link to="/" className="social-logo">
             <img src="/images/Frame1.png" alt=""></img>
           </Link>
-        </div>
+        </div> 
         <section className="footer-subscription">
           <h2 className="footer-subscription-heading">For Further Queries</h2>
           <div className="input-areas">
@@ -106,7 +106,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr />
       
     </>
   );
