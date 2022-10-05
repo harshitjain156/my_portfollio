@@ -1,5 +1,46 @@
 .back1{
-    background-color: bisque;
-    height:100%;
-    width:1005;
+    background-image: -webkit-linear-gradient(30deg,rgb(107, 164, 222) 50%,rgb(8, 8, 102) 50%);
+     min-height: 500px; 
+     padding:20px;
+}
+
+.back1 h1{
+    color:yellow;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, serif;
+    
+}
+
+
+.cont{
+    display:flex;
+    flex-direction:column;
+    text-decoration: none;
+}
+
+.cont ul{
+    list-style: none;
+    font-size:30px;
+    color:white;
+    margin-left:200px;
+}
+
+.cont ul li:hover{
+    color:red;
+}
+
+.back2{
+    margin:auto;
+    margin-left: 900px;
+    position:absolute;
+    margin-bottom: 50px;
+}
+
+.back2 img{
+    height:500px;
+}
+
+.back2 img:hover{
+    transition: ease-in-out;
 }
