@@ -37,7 +37,7 @@ function Footer() {
             <div className="social-icons">
               <a
                 className="social-icon-link"
-                href="https://chat.whatsapp.com/Dy5uAVlpzFj3ent90TMjeW"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -47,7 +47,7 @@ function Footer() {
 
               <a
                 className="social-icon-link"
-                href="https://instagram.com/codeate.in?igshid=YmMyMTA2M2Y="
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -57,7 +57,7 @@ function Footer() {
 
               <a
                 className="social-icon-link"
-                href="http://dsc.gg/code8"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Discord"
@@ -67,7 +67,7 @@ function Footer() {
 
               <a
                 className="social-icon-link"
-                href="https://www.linkedin.com/company/code8-connect"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
