@@ -1,0 +1,70 @@
+.navbar{
+    background-color: rgb(171, 4, 212);
+    height: 65px;
+    border-bottom: 4px solid rgba(88, 51, 131, 0.836);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.options{
+    display: flex;
+    justify-content: flex-end
+}
+.brand{
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 700;
+    padding:20px;
+}
+
+.home{
+    margin: 18px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.652);
+    border-radius: 5px;
+}
+
+@keyframes homeabout {
+    0%{
+        border-bottom: 3px solid white;
+        font-size: 18px;
+        width: 0%;
+    }
+    75%{
+        border-bottom: 3px solid rgb(46, 24, 81);
+        font-size: 20px;
+        width: 105%;
+    }
+    100%{
+        border-bottom: 3px solid rgb(17, 0, 44);
+        width:100%
+    }
+}
+.home :hover{
+    animation-name: homeabout;
+    animation-duration: 1.5s;
+}
+
+.about{
+    margin: 18px;
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.652);
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.about :hover{
+    animation-name: homeabout;
+    animation-duration: 2s;
+}
