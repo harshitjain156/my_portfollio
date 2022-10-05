@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 // import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaDiscord, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaDiscord, FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
 // import { MdFingerprint } from "react-icons/md";
 function Footer() {
   return (
@@ -37,17 +37,17 @@ function Footer() {
             <div className="social-icons">
               <a
                 className="social-icon-link"
-                href=""
+                href="https://github.com/harshitjain156"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <FaWhatsapp />
+                <FaGithub />
               </a>
 
               <a
                 className="social-icon-link"
-                href=""
+                href="https://www.instagram.com/_hj_15_/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -57,7 +57,7 @@ function Footer() {
 
               <a
                 className="social-icon-link"
-                href=""
+                href="https://discord.com/channels/HARSHITJAIN#2044"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Discord"
@@ -67,7 +67,7 @@ function Footer() {
 
               <a
                 className="social-icon-link"
-                href=""
+                href="https://www.linkedin.com/in/harshitjain-work/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
