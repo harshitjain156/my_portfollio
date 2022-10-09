@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(171, 4, 212);
+    background-image: linear-gradient(rgb(15, 4, 98),black);
     height: 65px;
     border-bottom: 4px solid rgba(88, 51, 131, 0.836);
     display: grid;
@@ -12,7 +12,7 @@
 .brand{
     display: flex;
     justify-content: flex-start;
-    color: rgb(0, 0, 0);
+    color: #efe5e5;
     font-size: larger;
     font-weight: 700;
     padding:20px;
@@ -24,10 +24,10 @@
     padding-left: 8px;
     padding-right: 8px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 18px;
     font-weight: 500;
-    background-color: rgba(255, 255, 255, 0.652);
+    background-color: rgba(241, 241, 117, 0.652);
     border-radius: 5px;
 }
 
@@ -56,10 +56,10 @@
     margin: 18px;
     padding: 6px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 18px;
     font-weight: 500;
-    background-color: rgba(255, 255, 255, 0.652);
+    background-color:  rgba(241, 241, 117, 0.652);
     border-radius: 5px;
     padding-left: 8px;
     padding-right: 8px;
@@ -67,4 +67,11 @@
 .about :hover{
     animation-name: homeabout;
     animation-duration: 2s;
+}
+
+
+
+.btn12{
+    color:white;
+    background-color:blue;
 }
