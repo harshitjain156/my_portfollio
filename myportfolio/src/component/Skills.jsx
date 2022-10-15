@@ -12,16 +12,16 @@ const Skills = () => {
       <div className="cont">
       <ul>
       <li>
-        Mern Stack Developer
+       {'\u25CF'} Mern Stack Developer
       </li>
       <li>
-        App Developer
+      {'\u25CF'} App Developer
       </li>
       <li>
-        Graphic Designer
+      {'\u25CF'} Graphic Designer
       </li>
       <li>
-      Machine Learning Enthusisatic
+     {'\u25CF'} Machine Learning Enthusisatic
       </li>
       </ul>
       </div>
