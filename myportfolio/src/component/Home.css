@@ -1,3 +1,24 @@
 .home1{
     height:100%;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    right: 50%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    
+}
+
+.Profile{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
