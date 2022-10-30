@@ -3,9 +3,22 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div classname="home1">
-      <h1>Home</h1>
+    <>
+    <div className='container'>
+      <div className='Profile'>
+        <h1> Portfolio </h1>
+        
+        <h2> Name : Harshit Jain </h2>
+        <h2> Institue : ABESIT College Of Engineering </h2>
+        <h2> Course : Bachelor of Technology</h2>
+
+
+
+
+
+      </div>
     </div>
+    </>
   )
 }
 
